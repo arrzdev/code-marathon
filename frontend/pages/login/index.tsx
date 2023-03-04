@@ -141,23 +141,6 @@ const Login: NextPage = () => {
             </div>
           </div>
         </div>
-        {/*
-          flight_code: "FR 3079"
-​​
-ntravelers: 5
-​​
-user_data: Object { address: "askdja", credit_card: "123123s", email: "tiago@gmail.com", … }
-​​​
-address: "askdja"
-​​​
-credit_card: "123123s"
-​​​
-email: "tiago@gmail.com"
-​​​
-name: "Tiago"
-​​​
-phone: "1231"
-        */}
         {/* render reservations */}
         {reservations && reservations.map((reservation: any) => (
           <div className="flex flex-wrap -mx-3 mb-6">
